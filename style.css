@@ -1,0 +1,84 @@
+/*puting the div including the informations meals in the center*/
+
+
+.informations_meal{
+font-family: arial, sans-serif;
+ text-align:center;
+}
+.category{
+    text-align:center;
+    font-size: 60px;
+}
+#ing{
+    font-size:18px;
+    font-family: arial, sans-serif;
+    margin-right: 3cm;
+    color: #1c0d40;
+    font-weight: bold;
+}
+
+/*styling the h1 tag*/
+h1 {
+    color: #4d075b;
+    font-family: arial, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0cm;
+    
+    }
+/*ading a text shadow to the h1 tag*/
+h1 {
+        color: rgb(50, 133, 14);
+        text-shadow: 1px 1px 2px rgb(238, 239, 227), 0 0 25px rgb(73, 136, 127), 0 0 5px rgb(111, 158, 40);
+ }
+ /*styling paragraph*/
+ 
+/*styling the button with hover effect*/
+
+.button {
+    flex: 1 1 auto;
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(20, 20, 5);
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 30px rgb(197, 221, 121);
+    border-radius: 25px;
+    border-color: rgb(246, 255, 240);
+    font-size: 20px;
+    font-weight: bold;
+   }
+  /* change the direction of the change here */
+  .button:hover {
+    background-position: right center; 
+  }
+  /*button background color*/
+.button{
+    background-image: linear-gradient(to right, #e1dfa3 0%, #eaea56 51%, #8dc7d5 100%);
+  }
+
+  h2 {
+    text-align:center;
+    color: #030339;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-right: 0cm;
+    font-weight:300;
+  -moz-box-shadow: 2px 2px 6px rgb(3, 39, 37);  
+  -webkit-box-shadow: 2px 2px 6px rgb(39, 234, 35);  
+  box-shadow:2px 2px 6px rgb(7, 0, 0);  
+    }
+
+#instructions{
+    color: #160514;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
